@@ -80,4 +80,41 @@ button{
     background: transparent;
 }
 
+@media screen and (max-width:415px) {
+    
+    .container{
+        width: 415px;
+    }
+    header .navbar {
+        width: 400px;
+        display: flex;
+        margin: 2px;
+        padding: 0;
+    }
+    header a{
+        font-size: 8px;
+        padding: 10px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        height: 600px;
+    }
+    .textdiv h1{
+        font-size: 18px;
+    }
+    button{
+        height: 20px;
+        width: 70px;
+        font-size: 8px;
+    }
+  
+
+    .imgdiv img{
+        height: 200px;
+        width: 200px;
+    }
+
 }
